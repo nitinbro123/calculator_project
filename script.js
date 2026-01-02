@@ -1,13 +1,13 @@
-// display input ko pakdo
+
 let display = document.getElementById("display");
 
-// sabhi calculator buttons ko pakdo
+
 let buttons = document.querySelectorAll(".js");
 
-// yeh variable calculation store karega
+
 let expression = "";
 
-// har button par same kaam (same JS logic)
+
 buttons.forEach(btn => {
 
     btn.addEventListener("click", () => {
@@ -38,3 +38,4 @@ buttons.forEach(btn => {
     });
 
 });
+
